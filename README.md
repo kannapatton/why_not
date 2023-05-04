@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+my notes
+
+What are each of these files and folders for?
+
+README.md is a markdown file that includes a lot of helpful tips and links that can help you while learning to use Create React App.
+node_modules is a folder that includes all of the dependency-related code that Create React App has installed. You will never need to go into this folder.
+package.json that manages our app dependencies and what is included in our node_modules folder for our project, plus the scripts we need to run our app.
+.gitignore is a file that is used to exclude files and folders from being tracked by Git. We don't want to include large folders such as the node_modules folder
+public is a folder that we can use to store our static assets, such as images, svgs, and fonts for our React app.
+src is a folder that contains our source code. It is where all of our React-related code will live and is what we will primarily work in to build our app.
